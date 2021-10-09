@@ -1,0 +1,16 @@
+{
+"required": true,
+"compatibilityLevel": "JAVA_8",
+"package": "me.stupitdog.bhp.mixin.mixins",
+"refmap": "mixins.bhp.refmap.json",
+"mixins": [
+	"MixinEntity",
+	"MixinEntityLivingBase",
+	"MixinEntityPlayer",
+	"MixinEntityPlayerSP",
+	"MixinMovementInputFromOptions",
+	"MixinNetworkManager",
+	"MixinPlayerControllerMP",
+	"MixinRenderEnderCrystal"
+]
+}

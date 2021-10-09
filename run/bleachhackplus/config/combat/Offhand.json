@@ -1,0 +1,10 @@
+{
+  "Enabled": true,
+  "Drawn": true,
+  "Keybind": "None",
+  "Mode": "TOTEM",
+  "Fallback": "CRYSTAL",
+  "GapOnSword": true,
+  "TotemHealth": 10,
+  "TotemDistance": 15
+}

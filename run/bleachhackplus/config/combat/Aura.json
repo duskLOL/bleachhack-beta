@@ -1,0 +1,10 @@
+{
+  "Enabled": false,
+  "Drawn": true,
+  "Keybind": "C",
+  "Range": 5.1,
+  "SwordOnly": true,
+  "Player": true,
+  "Animal": false,
+  "Mob": false
+}

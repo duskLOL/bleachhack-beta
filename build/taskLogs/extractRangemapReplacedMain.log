@@ -1,0 +1,274 @@
+Unsupposrted library path: C:\Users\Joseph\Documents\bleachhack+\versions\0.0.2\build\classes\api
+Unsupposrted library path: C:\Users\Joseph\Documents\bleachhack+\versions\0.0.2\build\resources\api
+Symbol range map extraction starting
+Processing 90 files
+startProcessing "me/stupitdog/bhp/Bhp.java" md5: 5ad861769068edde9b430949f3376bbc
+endProcessing "me/stupitdog/bhp/Bhp.java"
+
+startProcessing "me/stupitdog/bhp/BhpRpc.java" md5: f4f225c5f15c4d67243823c937604a9d
+endProcessing "me/stupitdog/bhp/BhpRpc.java"
+
+startProcessing "me/stupitdog/bhp/ShutdownHook.java" md5: c74acd621be8d48a70ff835ccdf85403
+endProcessing "me/stupitdog/bhp/ShutdownHook.java"
+
+startProcessing "me/stupitdog/bhp/command/Command.java" md5: 8b52940768b52d7dc5a624696deffbe5
+endProcessing "me/stupitdog/bhp/command/Command.java"
+
+startProcessing "me/stupitdog/bhp/command/commands/BindCommand.java" md5: 1a8e80e15bc4fb384634d8d4f3ef3c24
+endProcessing "me/stupitdog/bhp/command/commands/BindCommand.java"
+
+startProcessing "me/stupitdog/bhp/command/commands/CommandsCommand.java" md5: 2184e478ddc39ab7ec118b493ad794ee
+endProcessing "me/stupitdog/bhp/command/commands/CommandsCommand.java"
+
+startProcessing "me/stupitdog/bhp/command/commands/ToggleCommand.java" md5: 6e70d9aa9b57e7a27beaac5df86e57da
+endProcessing "me/stupitdog/bhp/command/commands/ToggleCommand.java"
+
+startProcessing "me/stupitdog/bhp/event/BhpEvent.java" md5: d21ba478127d6d44d2252222537e7cf0
+endProcessing "me/stupitdog/bhp/event/BhpEvent.java"
+
+startProcessing "me/stupitdog/bhp/event/events/DamageBlockEvent.java" md5: de8f86321842e1c604941f74c408c8ba
+endProcessing "me/stupitdog/bhp/event/events/DamageBlockEvent.java"
+
+startProcessing "me/stupitdog/bhp/event/events/NetworkPacketEvent.java" md5: 3aecf9d834e302e827ab66dd3bf257bb
+endProcessing "me/stupitdog/bhp/event/events/NetworkPacketEvent.java"
+
+startProcessing "me/stupitdog/bhp/event/events/PacketEvent.java" md5: bcfa9f6cea8f7ea3797c38ceb6f35733
+endProcessing "me/stupitdog/bhp/event/events/PacketEvent.java"
+
+startProcessing "me/stupitdog/bhp/event/events/PlayerCollisionEvent.java" md5: 78943634a2828cb9b165998d814887c6
+endProcessing "me/stupitdog/bhp/event/events/PlayerCollisionEvent.java"
+
+startProcessing "me/stupitdog/bhp/event/events/PlayerMoveEvent.java" md5: 9d0a87158d5b4a37f0863a6119ad25f8
+endProcessing "me/stupitdog/bhp/event/events/PlayerMoveEvent.java"
+
+startProcessing "me/stupitdog/bhp/event/events/SettingChangeEvent.java" md5: 66bf547c2f47468ad3a42f030dc4b417
+endProcessing "me/stupitdog/bhp/event/events/SettingChangeEvent.java"
+
+startProcessing "me/stupitdog/bhp/gui/BhpGui.java" md5: 6d5819baccdd97b5ac3e098d0cabc5f9
+endProcessing "me/stupitdog/bhp/gui/BhpGui.java"
+
+startProcessing "me/stupitdog/bhp/gui/components/Component.java" md5: 4b3cd7c0c8c740d76e84637ecdf39bdc
+endProcessing "me/stupitdog/bhp/gui/components/Component.java"
+
+startProcessing "me/stupitdog/bhp/gui/components/items/Item.java" md5: f90a5335a67772bb2b900d1cb82ce911
+endProcessing "me/stupitdog/bhp/gui/components/items/Item.java"
+
+startProcessing "me/stupitdog/bhp/gui/components/items/buttons/BindButton.java" md5: 861fab97d7eb6d82c417fe733cbbca0f
+endProcessing "me/stupitdog/bhp/gui/components/items/buttons/BindButton.java"
+
+startProcessing "me/stupitdog/bhp/gui/components/items/buttons/BooleanButton.java" md5: a107aba6fa82af1883616889403cb203
+endProcessing "me/stupitdog/bhp/gui/components/items/buttons/BooleanButton.java"
+
+startProcessing "me/stupitdog/bhp/gui/components/items/buttons/Button.java" md5: 9605e21d248a5001f6c7d1b20cdd46c7
+endProcessing "me/stupitdog/bhp/gui/components/items/buttons/Button.java"
+
+startProcessing "me/stupitdog/bhp/gui/components/items/buttons/EnumButton.java" md5: 159a96e8012d34c9e183b07ba06749bc
+endProcessing "me/stupitdog/bhp/gui/components/items/buttons/EnumButton.java"
+
+startProcessing "me/stupitdog/bhp/gui/components/items/buttons/ModuleButton.java" md5: 97c7e8864bd1c2fb85e44303ea664d05
+endProcessing "me/stupitdog/bhp/gui/components/items/buttons/ModuleButton.java"
+
+startProcessing "me/stupitdog/bhp/gui/components/items/buttons/Slider.java" md5: 25560dbe7ea74dfdeb1391ce7a6bc57b
+endProcessing "me/stupitdog/bhp/gui/components/items/buttons/Slider.java"
+
+startProcessing "me/stupitdog/bhp/gui/components/items/buttons/StringButton.java" md5: 1bb23c1df997dfe37ce706aad1e31d11
+endProcessing "me/stupitdog/bhp/gui/components/items/buttons/StringButton.java"
+
+startProcessing "me/stupitdog/bhp/gui/components/items/buttons/UnlimitedSlider.java" md5: 6a3c29819ac691d2a63b8777b63cf70f
+endProcessing "me/stupitdog/bhp/gui/components/items/buttons/UnlimitedSlider.java"
+
+startProcessing "me/stupitdog/bhp/gui/font/CFont.java" md5: 9a37ce48672cc642c10140e6c1af01f9
+endProcessing "me/stupitdog/bhp/gui/font/CFont.java"
+
+startProcessing "me/stupitdog/bhp/gui/font/CustomFont.java" md5: 543209733b510e892f0b2ac6a285e909
+endProcessing "me/stupitdog/bhp/gui/font/CustomFont.java"
+
+startProcessing "me/stupitdog/bhp/manager/ColorManager.java" md5: 91a1011a5f9b169b1d420d9920619578
+endProcessing "me/stupitdog/bhp/manager/ColorManager.java"
+
+startProcessing "me/stupitdog/bhp/manager/CommandManager.java" md5: cc70c150bc1d9c29a660e030c34716d7
+endProcessing "me/stupitdog/bhp/manager/CommandManager.java"
+
+startProcessing "me/stupitdog/bhp/manager/ConfigManager.java" md5: 99dbfc8a960813cfca360422cd816e7b
+endProcessing "me/stupitdog/bhp/manager/ConfigManager.java"
+
+startProcessing "me/stupitdog/bhp/manager/FileManager.java" md5: e213de71aac37df2e3f2eddf6e5a46e9
+endProcessing "me/stupitdog/bhp/manager/FileManager.java"
+
+startProcessing "me/stupitdog/bhp/manager/FontManager.java" md5: e93d37adec8fe18fcfc1efbbd8d70abd
+endProcessing "me/stupitdog/bhp/manager/FontManager.java"
+
+startProcessing "me/stupitdog/bhp/manager/MessageManager.java" md5: c1af564629504a07e2114d77f130828f
+endProcessing "me/stupitdog/bhp/manager/MessageManager.java"
+
+startProcessing "me/stupitdog/bhp/manager/ModuleManager.java" md5: 21067c4b980fb7cc29272c483c8925ba
+endProcessing "me/stupitdog/bhp/manager/ModuleManager.java"
+
+startProcessing "me/stupitdog/bhp/manager/SpeedManager.java" md5: 660d53eca5ea07d2c40cd8f8afcde567
+endProcessing "me/stupitdog/bhp/manager/SpeedManager.java"
+
+startProcessing "me/stupitdog/bhp/mixin/BhpMixinLoader.java" md5: a9459e114773bf9bdd2af7442f1c3dc4
+endProcessing "me/stupitdog/bhp/mixin/BhpMixinLoader.java"
+
+startProcessing "me/stupitdog/bhp/mixin/mixins/MixinEntity.java" md5: 18bc5dc2bc4b94dee934a27b5fdab1a0
+endProcessing "me/stupitdog/bhp/mixin/mixins/MixinEntity.java"
+
+startProcessing "me/stupitdog/bhp/mixin/mixins/MixinEntityLivingBase.java" md5: 30e6a292045c70916890ede88e4a3835
+endProcessing "me/stupitdog/bhp/mixin/mixins/MixinEntityLivingBase.java"
+
+startProcessing "me/stupitdog/bhp/mixin/mixins/MixinEntityPlayer.java" md5: b375635c1f6dc22137cf4f35056d3c91
+endProcessing "me/stupitdog/bhp/mixin/mixins/MixinEntityPlayer.java"
+
+startProcessing "me/stupitdog/bhp/mixin/mixins/MixinEntityPlayerSP.java" md5: ac9e22dd49c7151a6ef980a11a9b7a18
+endProcessing "me/stupitdog/bhp/mixin/mixins/MixinEntityPlayerSP.java"
+
+startProcessing "me/stupitdog/bhp/mixin/mixins/MixinMovementInputFromOptions.java" md5: e10bb8226ab8b2485e41429001fdd8a6
+endProcessing "me/stupitdog/bhp/mixin/mixins/MixinMovementInputFromOptions.java"
+
+startProcessing "me/stupitdog/bhp/mixin/mixins/MixinNetworkManager.java" md5: 7e9e4b8744cf6a2d17b2944a41e574a1
+endProcessing "me/stupitdog/bhp/mixin/mixins/MixinNetworkManager.java"
+
+startProcessing "me/stupitdog/bhp/mixin/mixins/MixinPlayerControllerMP.java" md5: af4757212e14d51bb7e4bbdc0ecd62f3
+endProcessing "me/stupitdog/bhp/mixin/mixins/MixinPlayerControllerMP.java"
+
+startProcessing "me/stupitdog/bhp/mixin/mixins/MixinRenderEnderCrystal.java" md5: 83ff917758822e8a5a2b4816cba90bf0
+endProcessing "me/stupitdog/bhp/mixin/mixins/MixinRenderEnderCrystal.java"
+
+startProcessing "me/stupitdog/bhp/module/Category.java" md5: 4d780e15ea21cf4c746470b9e4d35c80
+endProcessing "me/stupitdog/bhp/module/Category.java"
+
+startProcessing "me/stupitdog/bhp/module/Module.java" md5: b88c0b834ebab5bc672b0456a6fa6395
+endProcessing "me/stupitdog/bhp/module/Module.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/client/CSGOWatermark.java" md5: ba23d0513cebac1f915da937fcf042c2
+endProcessing "me/stupitdog/bhp/module/modules/client/CSGOWatermark.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/client/ClickGui.java" md5: 9bcb7b9407faa6f08161a5a25a5d0698
+endProcessing "me/stupitdog/bhp/module/modules/client/ClickGui.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/client/Fonts.java" md5: ad4ee681445a0b11275b0c27734b09cc
+endProcessing "me/stupitdog/bhp/module/modules/client/Fonts.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/client/HUD.java" md5: d63ef41c0199bbd9307294e95e5cffef
+endProcessing "me/stupitdog/bhp/module/modules/client/HUD.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/client/RPC.java" md5: c782a10c871da4ba4ea3ed889ab67784
+endProcessing "me/stupitdog/bhp/module/modules/client/RPC.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/combat/Aura.java" md5: 14c1395b4785698e3a61216dc34f133a
+endProcessing "me/stupitdog/bhp/module/modules/combat/Aura.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/combat/AutoCrystal.java" md5: e87ac1a4fa9237d5d283785062b1c96a
+endProcessing "me/stupitdog/bhp/module/modules/combat/AutoCrystal.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/combat/AutoTrap.java" md5: 9d793f338e1c37ebc27f46f7cb76cb35
+endProcessing "me/stupitdog/bhp/module/modules/combat/AutoTrap.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/combat/Burrow.java" md5: 459f70b5632e44fec057f1f87f8e6c20
+endProcessing "me/stupitdog/bhp/module/modules/combat/Burrow.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/combat/Criticals.java" md5: 56d60dc5ac5cdb74014f084f0748c27b
+endProcessing "me/stupitdog/bhp/module/modules/combat/Criticals.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/combat/Elevator.java" md5: 22e23380342921aba9d889d72a86c5d7
+endProcessing "me/stupitdog/bhp/module/modules/combat/Elevator.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/combat/HoleFill.java" md5: 435de895e99076ec80f8d6462774563e
+endProcessing "me/stupitdog/bhp/module/modules/combat/HoleFill.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/combat/SelfTrap.java" md5: 8e2c7846da14179241e0da3fd6412d81
+endProcessing "me/stupitdog/bhp/module/modules/combat/SelfTrap.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/combat/Surround.java" md5: a5343e9c5b7212d769ffb62548a72d02
+endProcessing "me/stupitdog/bhp/module/modules/combat/Surround.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/exploit/Blink.java" md5: 962d5ef4636f1fcd845069107d001a74
+endProcessing "me/stupitdog/bhp/module/modules/exploit/Blink.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/exploit/BoatFly.java" md5: 0c0b5d24714aaa8f2deba960a8eea2d4
+endProcessing "me/stupitdog/bhp/module/modules/exploit/BoatFly.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/exploit/GodModule.java" md5: 4485d5fa8aacb6a1028d720edd1eb60e
+endProcessing "me/stupitdog/bhp/module/modules/exploit/GodModule.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/exploit/Speedmine.java" md5: fd47a7baa57d0dff747620f8f348383e
+endProcessing "me/stupitdog/bhp/module/modules/exploit/Speedmine.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/movement/NoSlowDown.java" md5: dbb92aa4c1145be4e138e0b5492c4696
+endProcessing "me/stupitdog/bhp/module/modules/movement/NoSlowDown.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/movement/ReverseStep.java" md5: 9c974949def4bd306122c11b40a7a6da
+endProcessing "me/stupitdog/bhp/module/modules/movement/ReverseStep.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/movement/Speed.java" md5: efcd87d17c8cf39a47138f274e308de1
+endProcessing "me/stupitdog/bhp/module/modules/movement/Speed.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/movement/Sprint.java" md5: e36eff321f839fb35e792170bab75d3e
+endProcessing "me/stupitdog/bhp/module/modules/movement/Sprint.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/movement/Step.java" md5: da3c8495e5d34498f76f2fc4e0c3a4cb
+endProcessing "me/stupitdog/bhp/module/modules/movement/Step.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/movement/Velocity.java" md5: f28cbbc128f22323077e121b6aa0f031
+endProcessing "me/stupitdog/bhp/module/modules/movement/Velocity.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/player/FakePlayer.java" md5: ef31960591bef2c6f6072e6d36654de3
+endProcessing "me/stupitdog/bhp/module/modules/player/FakePlayer.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/player/FastUse.java" md5: 890c79da5784591088fc729852cada5f
+endProcessing "me/stupitdog/bhp/module/modules/player/FastUse.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/player/GuiMove.java" md5: 74bd8aa73992d15a9a05294d44945309
+endProcessing "me/stupitdog/bhp/module/modules/player/GuiMove.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/render/Chams.java" md5: 95c2a3ec9cad58fbdde57e382a21a294
+endProcessing "me/stupitdog/bhp/module/modules/render/Chams.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/render/HoleESP.java" md5: f75e4fdddff15b5f963b84da5fd9da29
+endProcessing "me/stupitdog/bhp/module/modules/render/HoleESP.java"
+
+startProcessing "me/stupitdog/bhp/module/modules/render/Nametags.java" md5: 2170f5c56f2d3259eea0d16f86bab904
+endProcessing "me/stupitdog/bhp/module/modules/render/Nametags.java"
+
+startProcessing "me/stupitdog/bhp/setting/Bind.java" md5: 3a4e80a4e328933b81c046d403569c86
+endProcessing "me/stupitdog/bhp/setting/Bind.java"
+
+startProcessing "me/stupitdog/bhp/setting/EnumConverter.java" md5: e7d4aadea5a1c0406b443c7b6cdbf1cf
+endProcessing "me/stupitdog/bhp/setting/EnumConverter.java"
+
+startProcessing "me/stupitdog/bhp/setting/Setting.java" md5: 28590ecbeb981e4fc304fb0c279f0701
+endProcessing "me/stupitdog/bhp/setting/Setting.java"
+
+startProcessing "me/stupitdog/bhp/util/BlockUtil.java" md5: fb964adb1daaa216f96e6302c2dc4100
+endProcessing "me/stupitdog/bhp/util/BlockUtil.java"
+
+startProcessing "me/stupitdog/bhp/util/BurrowUtil.java" md5: 1177af1da75850449ae6cdad106187d2
+endProcessing "me/stupitdog/bhp/util/BurrowUtil.java"
+
+startProcessing "me/stupitdog/bhp/util/ColorUtil.java" md5: fcdb1f1618f391514f50b31c4e98a85c
+endProcessing "me/stupitdog/bhp/util/ColorUtil.java"
+
+startProcessing "me/stupitdog/bhp/util/CrystalUtil.java" md5: 09455173e7c9aa27abb7a2ebfd7a808a
+endProcessing "me/stupitdog/bhp/util/CrystalUtil.java"
+
+startProcessing "me/stupitdog/bhp/util/EntityUtil.java" md5: 685ebebaff2d6e8f566072742c863073
+endProcessing "me/stupitdog/bhp/util/EntityUtil.java"
+
+startProcessing "me/stupitdog/bhp/util/HoleUtil.java" md5: c996d55bed23a10b5b614e6e644b6f30
+endProcessing "me/stupitdog/bhp/util/HoleUtil.java"
+
+startProcessing "me/stupitdog/bhp/util/MathUtil.java" md5: bbfa3df208bb461f947c672306a043b0
+endProcessing "me/stupitdog/bhp/util/MathUtil.java"
+
+startProcessing "me/stupitdog/bhp/util/MotionUtil.java" md5: 747c275ac9e6a3ba3b3ff110f8cff80d
+endProcessing "me/stupitdog/bhp/util/MotionUtil.java"
+
+startProcessing "me/stupitdog/bhp/util/RenderUtil.java" md5: 092b138f6d3dc804251578aa147783a9
+endProcessing "me/stupitdog/bhp/util/RenderUtil.java"
+
+startProcessing "me/stupitdog/bhp/util/Timer.java" md5: fbebba60d176585b8fea6edf477cb38b
+endProcessing "me/stupitdog/bhp/util/Timer.java"
+
+startProcessing "me/stupitdog/bhp/util/TotemPopCham.java" md5: 839d17427c8b9b03bf7d0061af160ced
+endProcessing "me/stupitdog/bhp/util/TotemPopCham.java"
+

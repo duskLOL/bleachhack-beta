@@ -1,0 +1,11 @@
+{
+  "Enabled": false,
+  "Drawn": true,
+  "Keybind": "Z",
+  "Multiplier": 2.1,
+  "AccelerationTimer": false,
+  "TimerSpeed": 1,
+  "SpeedDetect": true,
+  "JumpDetect": true,
+  "ExtraY": 0.0
+}

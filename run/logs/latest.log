@@ -1,0 +1,391 @@
+[17:58:22] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/Joseph/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[17:58:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:58:22] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:58:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:58:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:58:22] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
+[17:58:22] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_281, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_281\jre
+[17:58:23] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[17:58:23] [main/ERROR] [FML]: Full: C:\Users\Joseph\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[17:58:23] [main/ERROR] [FML]: Trimmed: c:/users/joseph/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[17:58:23] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[17:58:23] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[17:58:24] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[17:58:24] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[17:58:24] [main/INFO] [FML]: Found a command line coremod : me.stupitdog.bhp.mixin.BhpMixinLoader
+[17:58:24] [main/WARN] [FML]: The coremod me.stupitdog.bhp.mixin.BhpMixinLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[17:58:24] [main/INFO] [FML]: Ignoring missing certificate for coremod BhpMixinLoader (me.stupitdog.bhp.mixin.BhpMixinLoader), as this is probably a dev workspace
+[17:58:24] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.4 Source=file:/C:/Users/Joseph/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.4-SNAPSHOT/d22c5b223b3ff950cd165446dbc88afb162a8b6e/mixin-0.7.4-SNAPSHOT.jar Service=LaunchWrapper Env=CLIENT
+[17:58:24] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[17:58:24] [main/ERROR] [mixin]: Mixin config mixins.bhp.json does not specify "minVersion" property
+[17:58:24] [main/INFO] [FML]: Searching C:\Users\Joseph\Documents\bleachhack+\versions\0.0.2\run\.\mods for mods
+[17:58:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:58:24] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[17:58:24] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[17:58:24] [main/INFO] [GradleStart]: Injecting location in coremod me.stupitdog.bhp.mixin.BhpMixinLoader
+[17:58:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:58:24] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[17:58:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[17:58:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[17:58:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:58:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:58:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:58:26] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[17:58:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:58:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:58:26] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[17:58:26] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@fb0a08c
+[17:58:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[17:58:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[17:58:27] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[17:58:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[17:58:27] [main/WARN] [mixin]: Reference map 'mixins.bhp.refmap.json' for mixins.bhp.json could not be read. If this is a development environment you can ignore this message
+[17:58:27] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[17:58:28] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player139
+[17:58:32] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[17:58:33] [main/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_281, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 108461680 bytes (103 MB) / 370147328 bytes (353 MB) up to 1897922560 bytes (1810 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+BhpMixinLoader (unknown)
+  
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.14758 Compatibility Profile Context 21.1.1 27.20.14527.2002' Renderer: 'Radeon RX 570 Series'
+[17:58:33] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
+[17:58:33] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[17:58:34] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[17:58:34] [main/INFO] [FML]: Searching C:\Users\Joseph\Documents\bleachhack+\versions\0.0.2\run\.\mods for mods
+[17:58:35] [main/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[17:58:36] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 152495900 nanos
+[17:58:36] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bhp] at CLIENT
+[17:58:36] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bhp] at SERVER
+[17:58:36] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:bleachhack+
+[17:58:37] [main/INFO] [FML]: Processing ObjectHolder annotations
+[17:58:37] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
+[17:58:37] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[17:58:37] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[17:58:37] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[17:58:37] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[17:58:37] [main/INFO] [FML]: Applying holder lookups
+[17:58:37] [main/INFO] [FML]: Holder lookups applied
+[17:58:37] [main/INFO] [FML]: Applying holder lookups
+[17:58:37] [main/INFO] [FML]: Holder lookups applied
+[17:58:37] [main/INFO] [FML]: Applying holder lookups
+[17:58:37] [main/INFO] [FML]: Holder lookups applied
+[17:58:37] [main/INFO] [FML]: Applying holder lookups
+[17:58:37] [main/INFO] [FML]: Holder lookups applied
+[17:58:37] [main/INFO] [FML]: Injecting itemstacks
+[17:58:37] [main/INFO] [FML]: Itemstack injection complete
+[17:58:40] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2855
+[17:58:42] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[17:58:42] [Thread-7/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[17:58:42] [Thread-7/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:58:43] [Thread-7/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[17:58:43] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[17:58:49] [main/INFO] [FML]: Max texture size: 16384
+[17:58:50] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[17:58:51] [main/INFO] [FML]: Applying holder lookups
+[17:58:51] [main/INFO] [FML]: Holder lookups applied
+[17:58:51] [main/INFO] [FML]: Injecting itemstacks
+[17:58:51] [main/INFO] [FML]: Itemstack injection complete
+[17:58:51] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[17:58:51] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[17:58:53] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[17:58:57] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[17:58:57] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[17:58:57] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[17:58:57] [Server thread/INFO] [FML]: Applying holder lookups
+[17:58:57] [Server thread/INFO] [FML]: Holder lookups applied
+[17:58:57] [Server thread/INFO] [FML]: Loading dimension 0 (dev) (net.minecraft.server.integrated.IntegratedServer@53227ee)
+[17:58:58] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[17:58:58] [Server thread/INFO] [FML]: Loading dimension -1 (dev) (net.minecraft.server.integrated.IntegratedServer@53227ee)
+[17:58:58] [Server thread/INFO] [FML]: Loading dimension 1 (dev) (net.minecraft.server.integrated.IntegratedServer@53227ee)
+[17:58:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[17:58:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 50%
+[17:59:00] [Server thread/INFO] [FML]: Unloading dimension -1
+[17:59:00] [Server thread/INFO] [FML]: Unloading dimension 1
+[17:59:00] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 8, from 10
+[17:59:02] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[17:59:02] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[17:59:02] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2768,mcp@9.42,bhp@v2.0
+[17:59:02] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[17:59:02] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[17:59:02] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player139[local:E:25b87987] logged in with entity id 412 at (-217.62100709830185, 89.0, 279.72432395432077)
+[17:59:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player139 joined the game
+[17:59:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player139 has made the advancement [Ice Bucket Challenge]
+[17:59:03] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[17:59:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'dev'/overworld
+[17:59:03] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player139 has made the advancement [Ice Bucket Challenge]
+[17:59:03] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 12 advancements
+[17:59:10] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 13 advancements
+[17:59:16] [main/INFO] [STDOUT]: [me.stupitdog.bhp.module.modules.player.FastProjectile:onBow:16]: balls
+[17:59:16] [Server thread/INFO] [STDOUT]: [me.stupitdog.bhp.module.modules.player.FastProjectile:onBow:16]: balls
+[17:59:17] [main/INFO] [STDOUT]: [me.stupitdog.bhp.module.modules.player.FastProjectile:onBow:16]: balls
+[17:59:17] [Server thread/INFO] [STDOUT]: [me.stupitdog.bhp.module.modules.player.FastProjectile:onBow:16]: balls
+[17:59:18] [main/INFO] [STDOUT]: [me.stupitdog.bhp.module.modules.player.FastProjectile:onBow:16]: balls
+[17:59:18] [Server thread/INFO] [STDOUT]: [me.stupitdog.bhp.module.modules.player.FastProjectile:onBow:16]: balls
+[17:59:20] [main/INFO] [STDOUT]: [me.stupitdog.bhp.module.modules.player.FastProjectile:onBow:16]: balls
+[17:59:20] [Server thread/INFO] [STDOUT]: [me.stupitdog.bhp.module.modules.player.FastProjectile:onBow:16]: balls
+[18:01:04] [main/ERROR] [FML]: Exception caught during firing event net.minecraftforge.event.entity.player.ArrowNockEvent@5c8534f2:
+java.lang.UnsupportedOperationException: Attempted to call Event#setCanceled() on a non-cancelable event of type: net.minecraftforge.event.entity.player.ArrowNockEvent
+	at net.minecraftforge.fml.common.eventhandler.Event.setCanceled(Event.java:96) ~[Event.class:?]
+	at me.stupitdog.bhp.module.modules.player.FastProjectile.onBow(FastProjectile.java:17) ~[FastProjectile.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_24_FastProjectile_onBow_ArrowNockEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
+	at net.minecraftforge.event.ForgeEventFactory.onArrowNock(ForgeEventFactory.java:702) [ForgeEventFactory.class:?]
+	at net.minecraft.item.ItemBow.onItemRightClick(ItemBow.java:211) [ItemBow.class:?]
+	at net.minecraft.item.ItemStack.useItemRightClick(ItemStack.java:234) [ItemStack.class:?]
+	at net.minecraft.client.multiplayer.PlayerControllerMP.processRightClick(PlayerControllerMP.java:543) [PlayerControllerMP.class:?]
+	at net.minecraft.client.Minecraft.rightClickMouse(Minecraft.java:1711) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.processKeyBinds(Minecraft.java:2380) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runTickKeyboard(Minecraft.java:2146) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1934) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1187) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:441) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+[18:01:04] [main/ERROR] [FML]: Index: 1 Listeners:
+[18:01:04] [main/ERROR] [FML]: 0: NORMAL
+[18:01:04] [main/ERROR] [FML]: 1: ASM: me.stupitdog.bhp.module.modules.player.FastProjectile@7debef54 onBow(Lnet/minecraftforge/event/entity/player/ArrowNockEvent;)V
+[18:01:04] [Server thread/ERROR] [FML]: Exception caught during firing event net.minecraftforge.event.entity.player.ArrowNockEvent@e07ed9b:
+java.lang.UnsupportedOperationException: Attempted to call Event#setCanceled() on a non-cancelable event of type: net.minecraftforge.event.entity.player.ArrowNockEvent
+	at net.minecraftforge.fml.common.eventhandler.Event.setCanceled(Event.java:96) ~[Event.class:?]
+	at me.stupitdog.bhp.module.modules.player.FastProjectile.onBow(FastProjectile.java:17) ~[FastProjectile.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_24_FastProjectile_onBow_ArrowNockEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
+	at net.minecraftforge.event.ForgeEventFactory.onArrowNock(ForgeEventFactory.java:702) [ForgeEventFactory.class:?]
+	at net.minecraft.item.ItemBow.onItemRightClick(ItemBow.java:211) [ItemBow.class:?]
+	at net.minecraft.item.ItemStack.useItemRightClick(ItemStack.java:234) [ItemStack.class:?]
+	at net.minecraft.server.management.PlayerInteractionManager.processRightClick(PlayerInteractionManager.java:384) [PlayerInteractionManager.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.processTryUseItem(NetHandlerPlayServer.java:796) [NetHandlerPlayServer.class:?]
+	at net.minecraft.network.play.client.CPacketPlayerTryUseItem.processPacket(CPacketPlayerTryUseItem.java:43) [CPacketPlayerTryUseItem.class:?]
+	at net.minecraft.network.play.client.CPacketPlayerTryUseItem.processPacket(CPacketPlayerTryUseItem.java:9) [CPacketPlayerTryUseItem.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:21) [PacketThreadUtil$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_281]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_281]
+	at net.minecraft.util.Util.runTask(Util.java:53) [Util.class:?]
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:798) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_281]
+[18:01:04] [Server thread/ERROR] [FML]: Index: 1 Listeners:
+[18:01:04] [Server thread/ERROR] [FML]: 0: NORMAL
+[18:01:04] [Server thread/ERROR] [FML]: 1: ASM: me.stupitdog.bhp.module.modules.player.FastProjectile@7debef54 onBow(Lnet/minecraftforge/event/entity/player/ArrowNockEvent;)V
+[18:01:04] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.UnsupportedOperationException: Attempted to call Event#setCanceled() on a non-cancelable event of type: net.minecraftforge.event.entity.player.ArrowNockEvent
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_281]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_281]
+	at net.minecraft.util.Util.runTask(Util.java:54) [Util.class:?]
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:798) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_281]
+Caused by: java.lang.UnsupportedOperationException: Attempted to call Event#setCanceled() on a non-cancelable event of type: net.minecraftforge.event.entity.player.ArrowNockEvent
+	at net.minecraftforge.fml.common.eventhandler.Event.setCanceled(Event.java:96) ~[Event.class:?]
+	at me.stupitdog.bhp.module.modules.player.FastProjectile.onBow(FastProjectile.java:17) ~[FastProjectile.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_24_FastProjectile_onBow_ArrowNockEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) ~[EventBus.class:?]
+	at net.minecraftforge.event.ForgeEventFactory.onArrowNock(ForgeEventFactory.java:702) ~[ForgeEventFactory.class:?]
+	at net.minecraft.item.ItemBow.onItemRightClick(ItemBow.java:211) ~[ItemBow.class:?]
+	at net.minecraft.item.ItemStack.useItemRightClick(ItemStack.java:234) ~[ItemStack.class:?]
+	at net.minecraft.server.management.PlayerInteractionManager.processRightClick(PlayerInteractionManager.java:384) ~[PlayerInteractionManager.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.processTryUseItem(NetHandlerPlayServer.java:796) ~[NetHandlerPlayServer.class:?]
+	at net.minecraft.network.play.client.CPacketPlayerTryUseItem.processPacket(CPacketPlayerTryUseItem.java:43) ~[CPacketPlayerTryUseItem.class:?]
+	at net.minecraft.network.play.client.CPacketPlayerTryUseItem.processPacket(CPacketPlayerTryUseItem.java:9) ~[CPacketPlayerTryUseItem.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:21) ~[PacketThreadUtil$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_281]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_281]
+	at net.minecraft.util.Util.runTask(Util.java:53) ~[Util.class:?]
+	... 5 more
+[18:01:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[18:01:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[18:01:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[18:01:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'dev'/overworld
+[18:01:05] [Server thread/INFO] [FML]: Unloading dimension 0
+[18:01:05] [Server thread/INFO] [FML]: Applying holder lookups
+[18:01:05] [Server thread/INFO] [FML]: Holder lookups applied
+[18:01:05] [main/FATAL] [net.minecraft.client.Minecraft]: Unreported exception thrown!
+java.lang.UnsupportedOperationException: Attempted to call Event#setCanceled() on a non-cancelable event of type: net.minecraftforge.event.entity.player.ArrowNockEvent
+	at net.minecraftforge.fml.common.eventhandler.Event.setCanceled(Event.java:96) ~[Event.class:?]
+	at me.stupitdog.bhp.module.modules.player.FastProjectile.onBow(FastProjectile.java:17) ~[FastProjectile.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_24_FastProjectile_onBow_ArrowNockEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) ~[EventBus.class:?]
+	at net.minecraftforge.event.ForgeEventFactory.onArrowNock(ForgeEventFactory.java:702) ~[ForgeEventFactory.class:?]
+	at net.minecraft.item.ItemBow.onItemRightClick(ItemBow.java:211) ~[ItemBow.class:?]
+	at net.minecraft.item.ItemStack.useItemRightClick(ItemStack.java:234) ~[ItemStack.class:?]
+	at net.minecraft.client.multiplayer.PlayerControllerMP.processRightClick(PlayerControllerMP.java:543) ~[PlayerControllerMP.class:?]
+	at net.minecraft.client.Minecraft.rightClickMouse(Minecraft.java:1711) ~[Minecraft.class:?]
+	at net.minecraft.client.Minecraft.processKeyBinds(Minecraft.java:2380) ~[Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runTickKeyboard(Minecraft.java:2146) ~[Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1934) ~[Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1187) ~[Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:441) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+[18:01:05] [main/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:629]: ---- Minecraft Crash Report ----
+// Hey, that tickles! Hehehe!
+
+Time: 9/28/21 6:01 PM
+Description: Unexpected error
+
+java.lang.UnsupportedOperationException: Attempted to call Event#setCanceled() on a non-cancelable event of type: net.minecraftforge.event.entity.player.ArrowNockEvent
+	at net.minecraftforge.fml.common.eventhandler.Event.setCanceled(Event.java:96)
+	at me.stupitdog.bhp.module.modules.player.FastProjectile.onBow(FastProjectile.java:17)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_24_FastProjectile_onBow_ArrowNockEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.event.ForgeEventFactory.onArrowNock(ForgeEventFactory.java:702)
+	at net.minecraft.item.ItemBow.onItemRightClick(ItemBow.java:211)
+	at net.minecraft.item.ItemStack.useItemRightClick(ItemStack.java:234)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.processRightClick(PlayerControllerMP.java:543)
+	at net.minecraft.client.Minecraft.rightClickMouse(Minecraft.java:1711)
+	at net.minecraft.client.Minecraft.processKeyBinds(Minecraft.java:2380)
+	at net.minecraft.client.Minecraft.runTickKeyboard(Minecraft.java:2146)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1934)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1187)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:441)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:25)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at net.minecraftforge.fml.common.eventhandler.Event.setCanceled(Event.java:96)
+	at me.stupitdog.bhp.module.modules.player.FastProjectile.onBow(FastProjectile.java:17)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_24_FastProjectile_onBow_ArrowNockEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.event.ForgeEventFactory.onArrowNock(ForgeEventFactory.java:702)
+	at net.minecraft.item.ItemBow.onItemRightClick(ItemBow.java:211)
+	at net.minecraft.item.ItemStack.useItemRightClick(ItemStack.java:234)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.processRightClick(PlayerControllerMP.java:543)
+	at net.minecraft.client.Minecraft.rightClickMouse(Minecraft.java:1711)
+	at net.minecraft.client.Minecraft.processKeyBinds(Minecraft.java:2380)
+	at net.minecraft.client.Minecraft.runTickKeyboard(Minecraft.java:2146)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Player139'/412, l='MpServer', x=-206.00, y=85.00, z=264.20]]
+	Chunk stats: MultiplayerChunkCache: 289, 289
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (-284,64,263), Chunk: (at 4,4,7 in -18,16; contains blocks -288,0,256 to -273,255,271), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 611626 game time, 422827 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 59 total; [EntitySheep['Sheep'/257, l='MpServer', x=-207.51, y=77.00, z=206.73], EntityItem['item.item.egg'/641, l='MpServer', x=-193.80, y=78.00, z=317.55], EntityPig['Pig'/259, l='MpServer', x=-173.97, y=79.00, z=276.50], EntityPig['Pig'/262, l='MpServer', x=-192.45, y=83.00, z=315.50], EntityPig['Pig'/263, l='MpServer', x=-192.75, y=92.00, z=311.51], EntityPig['Pig'/268, l='MpServer', x=-187.75, y=87.00, z=189.48], EntityPig['Pig'/269, l='MpServer', x=-186.62, y=90.00, z=200.25], EntityPig['Pig'/270, l='MpServer', x=-181.30, y=87.00, z=203.51], EntityChicken['Chicken'/271, l='MpServer', x=-181.82, y=91.00, z=301.46], EntityPig['Pig'/272, l='MpServer', x=-188.50, y=98.00, z=303.25], EntitySkeleton['Skeleton'/784, l='MpServer', x=-243.50, y=71.00, z=187.50], EntityPig['Pig'/273, l='MpServer', x=-183.37, y=86.00, z=313.72], EntityPig['Pig'/274, l='MpServer', x=-186.46, y=92.00, z=309.26], EntityPig['Pig'/275, l='MpServer', x=-188.51, y=97.00, z=301.25], EntityChicken['Chicken'/276, l='MpServer', x=-192.51, y=81.00, z=316.87], EntitySheep['Sheep'/154, l='MpServer', x=-281.82, y=85.00, z=274.50], EntityPig['Pig'/283, l='MpServer', x=-166.19, y=84.00, z=199.67], EntityPig['Pig'/284, l='MpServer', x=-171.44, y=78.00, z=214.32], EntityPig['Pig'/285, l='MpServer', x=-173.19, y=79.00, z=224.66], EntityPig['Pig'/286, l='MpServer', x=-170.78, y=76.00, z=242.51], EntityPig['Pig'/287, l='MpServer', x=-175.67, y=93.00, z=299.50], EntityPig['Pig'/170, l='MpServer', x=-276.56, y=78.00, z=222.88], EntityPig['Pig'/171, l='MpServer', x=-272.72, y=78.00, z=217.50], EntityPig['Pig'/172, l='MpServer', x=-280.82, y=77.00, z=222.58], EntityPig['Pig'/173, l='MpServer', x=-274.68, y=90.00, z=292.50], EntityPig['Pig'/174, l='MpServer', x=-276.32, y=68.00, z=314.87], EntityPig['Pig'/175, l='MpServer', x=-285.42, y=92.00, z=305.29], EntityPig['Pig'/176, l='MpServer', x=-273.52, y=65.00, z=324.76], EntityPlayerSP['Player139'/412, l='MpServer', x=-206.00, y=85.00, z=264.20], EntityChicken['Chicken'/307, l='MpServer', x=-140.39, y=88.00, z=267.88], EntityChicken['Chicken'/308, l='MpServer', x=-142.52, y=86.00, z=274.54], EntityWitch['Witch'/692, l='MpServer', x=-192.50, y=72.00, z=214.50], EntityPig['Pig'/188, l='MpServer', x=-271.25, y=81.00, z=184.54], EntityPig['Pig'/189, l='MpServer', x=-258.35, y=81.00, z=195.50], EntityBat['Bat'/829, l='MpServer', x=-179.57, y=55.52, z=273.91], EntityPig['Pig'/190, l='MpServer', x=-270.50, y=83.00, z=236.25], EntityBat['Bat'/830, l='MpServer', x=-192.54, y=52.36, z=294.18], EntityPig['Pig'/191, l='MpServer', x=-268.45, y=83.00, z=253.55], EntityPig['Pig'/192, l='MpServer', x=-262.16, y=81.00, z=242.45], EntityPig['Pig'/193, l='MpServer', x=-269.73, y=83.00, z=258.50], EntitySheep['Sheep'/194, l='MpServer', x=-257.39, y=81.00, z=281.25], EntityPig['Pig'/195, l='MpServer', x=-260.70, y=76.00, z=326.50], EntityPig['Pig'/196, l='MpServer', x=-250.72, y=76.00, z=334.50], EntityZombie['Zombie'/837, l='MpServer', x=-250.50, y=79.00, z=197.50], EntitySkeleton['Skeleton'/844, l='MpServer', x=-233.50, y=82.00, z=195.50], EntityPig['Pig'/214, l='MpServer', x=-248.74, y=81.00, z=189.46], EntityPig['Pig'/215, l='MpServer', x=-252.70, y=78.00, z=223.49], EntityPig['Pig'/216, l='MpServer', x=-242.51, y=80.00, z=222.33], EntityPig['Pig'/217, l='MpServer', x=-248.50, y=81.00, z=217.75], EntityPig['Pig'/218, l='MpServer', x=-240.09, y=82.00, z=209.92], EntityPig['Pig'/219, l='MpServer', x=-249.75, y=71.00, z=299.50], EntitySheep['Sheep'/220, l='MpServer', x=-249.80, y=77.00, z=331.30], EntityPig['Pig'/232, l='MpServer', x=-247.21, y=79.00, z=186.50], EntityItem['item.item.egg'/616, l='MpServer', x=-142.13, y=86.00, z=274.84], EntityPig['Pig'/233, l='MpServer', x=-228.52, y=80.00, z=198.54], EntityPig['Pig'/234, l='MpServer', x=-235.72, y=82.00, z=204.42], EntityPig['Pig'/235, l='MpServer', x=-235.62, y=82.00, z=218.29], EntityPig['Pig'/247, l='MpServer', x=-225.42, y=80.00, z=204.30], EntityEnderCrystal['entity.EnderCrystal.name'/248, l='MpServer', x=-216.50, y=89.00, z=279.50]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:461)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2888)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:470)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:25)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_281, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 533862688 bytes (509 MB) / 916979712 bytes (874 MB) up to 1897922560 bytes (1810 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP 9.42 Powered by Forge 14.23.5.2768 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State     | ID        | Version      | Source                                          | Signature |
+	|:--------- |:--------- |:------------ |:----------------------------------------------- |:--------- |
+	| UCHIJAAAA | minecraft | 1.12.2       | minecraft.jar                                   | None      |
+	| UCHIJAAAA | mcp       | 9.42         | minecraft.jar                                   | None      |
+	| UCHIJAAAA | FML       | 8.0.99.99    | forgeSrc-1.12.2-14.23.5.2768-PROJECT(0.0.2).jar | None      |
+	| UCHIJAAAA | forge     | 14.23.5.2768 | forgeSrc-1.12.2-14.23.5.2768-PROJECT(0.0.2).jar | None      |
+	| UCHIJAAAA | bhp       | v2.0         | bin                                             | None      |
+
+	Loaded coremods (and transformers): 
+BhpMixinLoader (unknown)
+  
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.14758 Compatibility Profile Context 21.1.1 27.20.14527.2002' Renderer: 'Radeon RX 570 Series'
+	Launched Version: 1.12.2
+	LWJGL: 2.9.4
+	OpenGL: Radeon RX 570 Series GL version 4.6.14758 Compatibility Profile Context 21.1.1 27.20.14527.2002, ATI Technologies Inc.
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: Daniels_Based_Pack_v4.9.zip
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 12x AMD Ryzen 5 2600 Six-Core Processor 
+[18:01:05] [main/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:629]: #@!@# Game crashed! Crash report saved to: #@!@# C:\Users\Joseph\Documents\bleachhack+\versions\0.0.2\run\.\crash-reports\crash-2021-09-28_18.01.05-client.txt

@@ -1,0 +1,126 @@
+[17:53:19] [main/INFO] [GradleStart]: username: stupitdogmc@gmail.com
+[17:53:19] [main/INFO] [GradleStart]: Extra: []
+[17:53:19] [main/INFO] [GradleStart]: Password found, attempting login
+[17:53:19] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilUserAuthentication]: Logging in with username & password
+[17:53:21] [main/INFO] [GradleStart]: Login Succesful!
+[17:53:21] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Joseph/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --userType, mojang, --accessToken{REDACTED}, --version, 1.12.2, --uuid, 031311f625dd4f05b4722af7d516401c, --username, stupitdog, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[17:53:21] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:53:21] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:53:21] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:53:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:53:21] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
+[17:53:21] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_281, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_281\jre
+[17:53:21] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[17:53:21] [main/ERROR] [FML]: Full: C:\Users\Joseph\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[17:53:21] [main/ERROR] [FML]: Trimmed: c:/users/joseph/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[17:53:21] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[17:53:21] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[17:53:22] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[17:53:22] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[17:53:22] [main/INFO] [FML]: Found a command line coremod : me.stupitdog.bhp.mixin.BhpMixinLoader
+[17:53:22] [main/WARN] [FML]: The coremod me.stupitdog.bhp.mixin.BhpMixinLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[17:53:22] [main/INFO] [FML]: Ignoring missing certificate for coremod BhpMixinLoader (me.stupitdog.bhp.mixin.BhpMixinLoader), as this is probably a dev workspace
+[17:53:22] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.4 Source=file:/C:/Users/Joseph/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.4-SNAPSHOT/d22c5b223b3ff950cd165446dbc88afb162a8b6e/mixin-0.7.4-SNAPSHOT.jar Service=LaunchWrapper Env=CLIENT
+[17:53:23] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[17:53:23] [main/ERROR] [mixin]: Mixin config mixins.bhp.json does not specify "minVersion" property
+[17:53:23] [main/INFO] [FML]: Searching C:\Users\Joseph\Documents\bleachhack+\versions\0.0.2\run\.\mods for mods
+[17:53:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:53:23] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[17:53:23] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[17:53:23] [main/INFO] [GradleStart]: Injecting location in coremod me.stupitdog.bhp.mixin.BhpMixinLoader
+[17:53:23] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:53:23] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[17:53:23] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[17:53:23] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[17:53:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:53:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:53:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:53:24] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[17:53:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:53:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:53:24] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[17:53:24] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@1f10fec6
+[17:53:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[17:53:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[17:53:25] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[17:53:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[17:53:25] [main/WARN] [mixin]: Reference map 'mixins.bhp.refmap.json' for mixins.bhp.json could not be read. If this is a development environment you can ignore this message
+[17:53:25] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[17:53:25] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: stupitdog
+[17:53:28] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[17:53:28] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[17:53:29] [main/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_281, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 75856576 bytes (72 MB) / 380108800 bytes (362 MB) up to 1897922560 bytes (1810 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+BhpMixinLoader (unknown)
+  
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.14758 Compatibility Profile Context 21.1.1 27.20.14527.2002' Renderer: 'Radeon RX 570 Series'
+[17:53:29] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
+[17:53:29] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[17:53:29] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[17:53:29] [main/INFO] [FML]: Searching C:\Users\Joseph\Documents\bleachhack+\versions\0.0.2\run\.\mods for mods
+[17:53:30] [main/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[17:53:31] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bhp] at CLIENT
+[17:53:31] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bhp] at SERVER
+[17:53:31] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 101317500 nanos
+[17:53:31] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:bleachhack+, Daniels_Based_Pack_v4.9.zip
+[17:53:31] [main/INFO] [FML]: Processing ObjectHolder annotations
+[17:53:31] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
+[17:53:31] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[17:53:31] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[17:53:31] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[17:53:31] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[17:53:32] [main/INFO] [FML]: Applying holder lookups
+[17:53:32] [main/INFO] [FML]: Holder lookups applied
+[17:53:32] [main/INFO] [FML]: Applying holder lookups
+[17:53:32] [main/INFO] [FML]: Holder lookups applied
+[17:53:32] [main/INFO] [FML]: Applying holder lookups
+[17:53:32] [main/INFO] [FML]: Holder lookups applied
+[17:53:32] [main/INFO] [FML]: Applying holder lookups
+[17:53:32] [main/INFO] [FML]: Holder lookups applied
+[17:53:32] [main/INFO] [FML]: Injecting itemstacks
+[17:53:32] [main/INFO] [FML]: Itemstack injection complete
+[17:53:34] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2855
+[17:53:35] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[17:53:35] [Thread-7/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[17:53:35] [Thread-7/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:53:35] [Thread-7/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[17:53:36] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[17:53:41] [main/INFO] [FML]: Max texture size: 16384
+[17:53:42] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[17:53:43] [main/INFO] [FML]: Applying holder lookups
+[17:53:43] [main/INFO] [FML]: Holder lookups applied
+[17:53:43] [main/INFO] [FML]: Injecting itemstacks
+[17:53:43] [main/INFO] [FML]: Itemstack injection complete
+[17:53:43] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[17:53:43] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[17:53:43] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[17:53:57] [main/INFO] [net.minecraft.client.multiplayer.GuiConnecting]: Connecting to _dc-srv.a9b734452d0e._minecraft._tcp.auscpvp.org., 25565
+[17:53:57] [Server Connector #1/ERROR] [net.minecraft.client.multiplayer.GuiConnecting]: Couldn't connect to server
+java.lang.NullPointerException: group
+	at io.netty.bootstrap.AbstractBootstrap.group(AbstractBootstrap.java:84) ~[AbstractBootstrap.class:?]
+	at net.minecraft.network.NetworkManager.createNetworkManagerAndConnect(NetworkManager.java:367) ~[NetworkManager.class:?]
+	at net.minecraft.client.multiplayer.GuiConnecting$1.run(GuiConnecting.java:68) [GuiConnecting$1.class:?]
+[17:53:58] [Netty Client IO #0/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bhp] at SERVER
+[17:54:01] [main/INFO] [net.minecraft.client.multiplayer.GuiConnecting]: Connecting to _dc-srv.a9b734452d0e._minecraft._tcp.auscpvp.org., 25565
+[17:54:02] [Netty Client IO #1/INFO] [FML]: Aborting client handshake "VANILLA"
+[17:54:02] [Netty Client IO #1/INFO] [FML]: [Netty Client IO #1] Client side vanilla connection established
+[17:54:03] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT]                                      
+[17:54:03] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Welcome to auscpvp, cunt
+[17:54:03] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] stupitdog joined the game
+[17:54:03] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have teleported to spawn!
+[17:54:03] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 51 advancements
+[17:54:41] [main/INFO] [FML]: Applying holder lookups
+[17:54:41] [main/INFO] [FML]: Holder lookups applied
+[17:54:41] [Netty Client IO #3/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bhp] at SERVER
+[17:54:42] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[17:54:42] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[17:54:43] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

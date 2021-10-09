@@ -1,0 +1,369 @@
+[19:43:08] [main/INFO] [GradleStart]: username: stupitdogmc@gmail.com
+[19:43:08] [main/INFO] [GradleStart]: Extra: []
+[19:43:08] [main/INFO] [GradleStart]: Password found, attempting login
+[19:43:08] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilUserAuthentication]: Logging in with username & password
+[19:43:10] [main/INFO] [GradleStart]: Login Succesful!
+[19:43:10] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Joseph/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --userType, mojang, --accessToken{REDACTED}, --version, 1.12.2, --uuid, 031311f625dd4f05b4722af7d516401c, --username, stupitdog, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[19:43:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:43:10] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:43:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:43:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:43:10] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
+[19:43:10] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_281, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_281\jre
+[19:43:10] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[19:43:10] [main/ERROR] [FML]: Full: C:\Users\Joseph\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[19:43:10] [main/ERROR] [FML]: Trimmed: c:/users/joseph/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[19:43:10] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[19:43:10] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[19:43:11] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[19:43:11] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[19:43:11] [main/INFO] [FML]: Found a command line coremod : me.stupitdog.bhp.mixin.BhpMixinLoader
+[19:43:11] [main/WARN] [FML]: The coremod me.stupitdog.bhp.mixin.BhpMixinLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[19:43:11] [main/INFO] [FML]: Ignoring missing certificate for coremod BhpMixinLoader (me.stupitdog.bhp.mixin.BhpMixinLoader), as this is probably a dev workspace
+[19:43:11] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.4 Source=file:/C:/Users/Joseph/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.4-SNAPSHOT/d22c5b223b3ff950cd165446dbc88afb162a8b6e/mixin-0.7.4-SNAPSHOT.jar Service=LaunchWrapper Env=CLIENT
+[19:43:11] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[19:43:11] [main/ERROR] [mixin]: Mixin config mixins.bhp.json does not specify "minVersion" property
+[19:43:11] [main/INFO] [FML]: Searching C:\Users\Joseph\Documents\bleachhack+\versions\0.0.2\run\.\mods for mods
+[19:43:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:43:11] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[19:43:11] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[19:43:11] [main/INFO] [GradleStart]: Injecting location in coremod me.stupitdog.bhp.mixin.BhpMixinLoader
+[19:43:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:43:11] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[19:43:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:43:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[19:43:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:43:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:43:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:43:13] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[19:43:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:43:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:43:13] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[19:43:13] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@7a65a360
+[19:43:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:43:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[19:43:13] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:43:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:43:13] [main/WARN] [mixin]: Reference map 'mixins.bhp.refmap.json' for mixins.bhp.json could not be read. If this is a development environment you can ignore this message
+[19:43:13] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[19:43:14] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: stupitdog
+[19:43:17] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[19:43:17] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[19:43:18] [main/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_281, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 66859800 bytes (63 MB) / 376963072 bytes (359 MB) up to 1897922560 bytes (1810 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+BhpMixinLoader (unknown)
+  
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.14758 Compatibility Profile Context 21.1.1 27.20.14527.2002' Renderer: 'Radeon RX 570 Series'
+[19:43:18] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
+[19:43:18] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[19:43:18] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[19:43:18] [main/INFO] [FML]: Searching C:\Users\Joseph\Documents\bleachhack+\versions\0.0.2\run\.\mods for mods
+[19:43:20] [main/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[19:43:20] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bhp] at CLIENT
+[19:43:20] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bhp] at SERVER
+[19:43:20] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 127488700 nanos
+[19:43:20] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:bleachhack+, Daniels_Based_Pack_v4.9.zip
+[19:43:21] [main/INFO] [FML]: Processing ObjectHolder annotations
+[19:43:21] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
+[19:43:21] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[19:43:21] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[19:43:21] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[19:43:21] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: java.lang.NullPointerException
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.module.modules.movement.Step.onDisable(Step.java:17)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.module.Module.disable(Module.java:46)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.manager.ConfigManager.loadFile(ConfigManager.java:99)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.manager.ConfigManager.loadPath(ConfigManager.java:220)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.manager.ConfigManager.loadSettings(ConfigManager.java:214)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.manager.ConfigManager.loadConfig(ConfigManager.java:113)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.manager.ConfigManager.init(ConfigManager.java:205)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.Bhp.init(Bhp.java:43)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:626)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:218)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:196)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:135)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:627)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraft.client.Minecraft.init(Minecraft.java:513)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraft.client.Minecraft.run(Minecraft.java:421)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraft.client.main.Main.main(Main.java:118)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at GradleStart.main(GradleStart.java:25)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: java.lang.NullPointerException
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.module.modules.movement.Step.onDisable(Step.java:17)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.module.Module.disable(Module.java:46)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.manager.ConfigManager.loadFile(ConfigManager.java:99)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.manager.ConfigManager.loadPath(ConfigManager.java:220)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.manager.ConfigManager.loadSettings(ConfigManager.java:214)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.manager.ConfigManager.loadConfig(ConfigManager.java:113)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.manager.ConfigManager.init(ConfigManager.java:205)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.Bhp.init(Bhp.java:43)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:626)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:218)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:196)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:135)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:627)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraft.client.Minecraft.init(Minecraft.java:513)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraft.client.Minecraft.run(Minecraft.java:421)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraft.client.main.Main.main(Main.java:118)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at GradleStart.main(GradleStart.java:25)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: java.lang.NullPointerException
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.module.modules.movement.Step.onDisable(Step.java:17)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.module.Module.disable(Module.java:46)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.manager.ConfigManager.loadFile(ConfigManager.java:99)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.manager.ConfigManager.loadPath(ConfigManager.java:220)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.manager.ConfigManager.loadSettings(ConfigManager.java:214)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.manager.ConfigManager.loadConfig(ConfigManager.java:113)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.manager.ConfigManager.init(ConfigManager.java:205)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.Bhp.init(Bhp.java:43)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:626)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:218)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:196)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:135)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:627)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraft.client.Minecraft.init(Minecraft.java:513)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraft.client.Minecraft.run(Minecraft.java:421)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraft.client.main.Main.main(Main.java:118)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at GradleStart.main(GradleStart.java:25)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: java.lang.NullPointerException
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.module.modules.movement.Step.onDisable(Step.java:17)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.module.Module.disable(Module.java:46)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.manager.ConfigManager.loadFile(ConfigManager.java:99)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.manager.ConfigManager.loadPath(ConfigManager.java:220)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.manager.ConfigManager.loadSettings(ConfigManager.java:214)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.manager.ConfigManager.loadConfig(ConfigManager.java:113)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.manager.ConfigManager.init(ConfigManager.java:205)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at me.stupitdog.bhp.Bhp.init(Bhp.java:43)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:626)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:218)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:196)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:135)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:627)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraft.client.Minecraft.init(Minecraft.java:513)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraft.client.Minecraft.run(Minecraft.java:421)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraft.client.main.Main.main(Main.java:118)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+[19:43:21] [main/INFO] [STDERR]: [me.stupitdog.bhp.module.modules.movement.Step:onDisable:20]: 	at GradleStart.main(GradleStart.java:25)
+[19:43:21] [main/INFO] [FML]: Applying holder lookups
+[19:43:21] [main/INFO] [FML]: Holder lookups applied
+[19:43:21] [main/INFO] [FML]: Applying holder lookups
+[19:43:21] [main/INFO] [FML]: Holder lookups applied
+[19:43:21] [main/INFO] [FML]: Applying holder lookups
+[19:43:21] [main/INFO] [FML]: Holder lookups applied
+[19:43:21] [main/INFO] [FML]: Applying holder lookups
+[19:43:21] [main/INFO] [FML]: Holder lookups applied
+[19:43:21] [main/INFO] [FML]: Injecting itemstacks
+[19:43:21] [main/INFO] [FML]: Itemstack injection complete
+[19:43:24] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[19:43:25] [Thread-7/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[19:43:25] [Thread-7/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[19:43:25] [Thread-7/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[19:43:25] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2855
+[19:43:25] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[19:43:31] [main/INFO] [FML]: Max texture size: 16384
+[19:43:31] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[19:43:33] [main/INFO] [FML]: Applying holder lookups
+[19:43:33] [main/INFO] [FML]: Holder lookups applied
+[19:43:33] [main/INFO] [FML]: Injecting itemstacks
+[19:43:33] [main/INFO] [FML]: Itemstack injection complete
+[19:43:33] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[19:43:33] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[19:43:33] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[19:43:47] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[19:43:47] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[19:43:47] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[19:43:47] [Server thread/INFO] [FML]: Applying holder lookups
+[19:43:47] [Server thread/INFO] [FML]: Holder lookups applied
+[19:43:48] [Server thread/INFO] [FML]: Loading dimension 0 (dev) (net.minecraft.server.integrated.IntegratedServer@3214107a)
+[19:43:48] [Netty Client IO #0/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bhp] at SERVER
+[19:43:48] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[19:43:48] [Server thread/INFO] [FML]: Loading dimension -1 (dev) (net.minecraft.server.integrated.IntegratedServer@3214107a)
+[19:43:48] [Server thread/INFO] [FML]: Loading dimension 1 (dev) (net.minecraft.server.integrated.IntegratedServer@3214107a)
+[19:43:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[19:43:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 41%
+[19:43:50] [Server thread/INFO] [FML]: Unloading dimension -1
+[19:43:50] [Server thread/INFO] [FML]: Unloading dimension 1
+[19:43:50] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 8, from 10
+[19:43:50] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[19:43:50] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[19:43:50] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2768,mcp@9.42,bhp@v2.0
+[19:43:50] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[19:43:51] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[19:43:51] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: stupitdog[local:E:5419f602] logged in with entity id 414 at (-212.23876108034915, 89.0, 279.7925451260846)
+[19:43:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: stupitdog joined the game
+[19:43:52] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[19:43:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'dev'/overworld
+[19:43:52] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 54 advancements
+[19:52:57] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[19:52:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'dev'/overworld
+[19:52:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[19:52:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[19:52:58] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: stupitdog lost connection: Disconnected
+[19:52:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: stupitdog left the game
+[19:52:58] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[19:52:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[19:52:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'dev'/overworld
+[19:52:58] [Server thread/INFO] [FML]: Unloading dimension 0
+[19:52:58] [Server thread/INFO] [FML]: Applying holder lookups
+[19:52:58] [Server thread/INFO] [FML]: Holder lookups applied
+[19:52:59] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[19:52:59] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[19:52:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

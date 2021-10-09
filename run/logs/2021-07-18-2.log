@@ -1,0 +1,263 @@
+[17:58:36] [main/INFO] [GradleStart]: username: stupitdogmc@gmail.com
+[17:58:36] [main/INFO] [GradleStart]: Extra: []
+[17:58:36] [main/INFO] [GradleStart]: Password found, attempting login
+[17:58:36] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilUserAuthentication]: Logging in with username & password
+[17:58:37] [main/INFO] [GradleStart]: Login Succesful!
+[17:58:37] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Joseph/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --userType, mojang, --accessToken{REDACTED}, --version, 1.12.2, --uuid, 031311f625dd4f05b4722af7d516401c, --username, stupitdog, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[17:58:37] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:58:37] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:58:37] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:58:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:58:37] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
+[17:58:37] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_281, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_281\jre
+[17:58:37] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[17:58:37] [main/ERROR] [FML]: Full: C:\Users\Joseph\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[17:58:37] [main/ERROR] [FML]: Trimmed: c:/users/joseph/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[17:58:37] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[17:58:37] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[17:58:38] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[17:58:38] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[17:58:38] [main/INFO] [FML]: Found a command line coremod : me.stupitdog.bhp.mixin.BhpMixinLoader
+[17:58:38] [main/WARN] [FML]: The coremod me.stupitdog.bhp.mixin.BhpMixinLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[17:58:38] [main/INFO] [FML]: Ignoring missing certificate for coremod BhpMixinLoader (me.stupitdog.bhp.mixin.BhpMixinLoader), as this is probably a dev workspace
+[17:58:38] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.4 Source=file:/C:/Users/Joseph/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.4-SNAPSHOT/d22c5b223b3ff950cd165446dbc88afb162a8b6e/mixin-0.7.4-SNAPSHOT.jar Service=LaunchWrapper Env=CLIENT
+[17:58:38] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[17:58:38] [main/ERROR] [mixin]: Mixin config mixins.bhp.json does not specify "minVersion" property
+[17:58:38] [main/INFO] [FML]: Searching C:\Users\Joseph\Documents\bleachhack+\versions\0.0.2\run\.\mods for mods
+[17:58:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:58:38] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[17:58:38] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[17:58:38] [main/INFO] [GradleStart]: Injecting location in coremod me.stupitdog.bhp.mixin.BhpMixinLoader
+[17:58:38] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:58:38] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[17:58:38] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[17:58:38] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[17:58:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:58:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:58:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:58:40] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[17:58:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:58:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:58:40] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[17:58:40] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@7a65a360
+[17:58:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[17:58:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[17:58:41] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[17:58:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[17:58:41] [main/WARN] [mixin]: Reference map 'mixins.bhp.refmap.json' for mixins.bhp.json could not be read. If this is a development environment you can ignore this message
+[17:58:41] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[17:58:41] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: stupitdog
+[17:58:44] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[17:58:44] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[17:58:45] [main/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_281, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 75651520 bytes (72 MB) / 380633088 bytes (363 MB) up to 1897922560 bytes (1810 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+BhpMixinLoader (unknown)
+  
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.14758 Compatibility Profile Context 21.1.1 27.20.14527.2002' Renderer: 'Radeon RX 570 Series'
+[17:58:45] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
+[17:58:45] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[17:58:45] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[17:58:46] [main/INFO] [FML]: Searching C:\Users\Joseph\Documents\bleachhack+\versions\0.0.2\run\.\mods for mods
+[17:58:47] [main/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[17:58:47] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bhp] at CLIENT
+[17:58:47] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bhp] at SERVER
+[17:58:47] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 115251300 nanos
+[17:58:48] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:bleachhack+, Daniels_Based_Pack_v4.9.zip
+[17:58:48] [main/INFO] [FML]: Processing ObjectHolder annotations
+[17:58:48] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
+[17:58:48] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[17:58:48] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[17:58:48] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[17:58:48] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[17:58:48] [main/INFO] [FML]: Applying holder lookups
+[17:58:48] [main/INFO] [FML]: Holder lookups applied
+[17:58:48] [main/INFO] [FML]: Applying holder lookups
+[17:58:48] [main/INFO] [FML]: Holder lookups applied
+[17:58:48] [main/INFO] [FML]: Applying holder lookups
+[17:58:48] [main/INFO] [FML]: Holder lookups applied
+[17:58:48] [main/INFO] [FML]: Applying holder lookups
+[17:58:48] [main/INFO] [FML]: Holder lookups applied
+[17:58:48] [main/INFO] [FML]: Injecting itemstacks
+[17:58:48] [main/INFO] [FML]: Itemstack injection complete
+[17:58:50] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2855
+[17:58:52] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[17:58:52] [Thread-7/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[17:58:52] [Thread-7/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:58:52] [Thread-7/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[17:58:52] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[17:58:58] [main/INFO] [FML]: Max texture size: 16384
+[17:58:58] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[17:59:00] [main/INFO] [FML]: Applying holder lookups
+[17:59:00] [main/INFO] [FML]: Holder lookups applied
+[17:59:00] [main/INFO] [FML]: Injecting itemstacks
+[17:59:00] [main/INFO] [FML]: Itemstack injection complete
+[17:59:00] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[17:59:00] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[17:59:00] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[17:59:06] [main/INFO] [net.minecraft.client.multiplayer.GuiConnecting]: Connecting to _dc-srv.a9b734452d0e._minecraft._tcp.auscpvp.org., 25565
+[17:59:06] [Netty Client IO #1/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bhp] at SERVER
+[17:59:08] [Netty Client IO #0/INFO] [FML]: Aborting client handshake "VANILLA"
+[17:59:08] [Netty Client IO #0/INFO] [FML]: [Netty Client IO #0] Client side vanilla connection established
+[17:59:09] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT]                                      
+[17:59:09] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Welcome to auscpvp, cunt
+[17:59:09] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] stupitdog joined the game
+[17:59:09] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have teleported to spawn!
+[17:59:09] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 51 advancements
+[17:59:25] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have chosen stupitdog.
+[17:59:27] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [CombatLog] You have combat tagged stupitdog. Do not logout!
+[17:59:27] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [CombatLog] You are no longer in combat. You may logout.
+[17:59:44] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> awa
+[17:59:56] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> owo
+[18:00:07] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> godmodule really cool
+[18:00:10] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> ye
+[18:00:14] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] noatmc left the game
+[18:00:19] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] noatmc joined the game
+[18:00:26] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> mojang spaghetti code abuser 101
+[18:00:32] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [CombatLog] You have combat tagged stupitdog. Do not logout!
+[18:00:32] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [CombatLog] You are no longer in combat. You may logout.
+[18:00:38] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> i dont have any cpvp modules
+[18:00:40] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] stupitdog blew up
+[18:00:40] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] noatmc left the game
+[18:00:42] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have teleported to spawn!
+[18:00:44] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] noatmc joined the game
+[18:00:46] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have chosen stupitdog.
+[18:00:51] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> u will get kick like that
+[18:00:53] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> i dont have any cpvp modules
+[18:00:55] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [CombatLog] You have combat tagged stupitdog. Do not logout!
+[18:00:55] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [CombatLog] You are no longer in combat. You may logout.
+[18:01:03] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> wait how fast is it
+[18:01:06] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> faceplace me
+[18:01:14] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> u on 200ms ay
+[18:01:14] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Brayden_Vlogs joined the game
+[18:01:15] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> wait i am turning on faceplace
+[18:01:34] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> gapple
+[18:01:39] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> hello old CW members
+[18:01:41] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> :(
+[18:01:44] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> :sob:
+[18:01:50] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> noat u left as well?
+[18:01:52] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> ye
+[18:01:59] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> have u guys added
+[18:02:00] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> :sunglasses:
+[18:02:02] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> group is too paranoid holy shit
+[18:02:09] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> it just isnt good anymore
+[18:02:13] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> i joined cw for cpvp
+[18:02:15] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> quacklyy is to blame
+[18:02:23] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> but everyone is braindead
+[18:02:33] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> thats every aussie
+[18:02:35] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [CombatLog] You have combat tagged stupitdog. Do not logout!
+[18:02:48] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> noat join team bleach?
+[18:02:50] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [CombatLog] You are no longer in combat. You may logout.
+[18:02:52] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> ill dm u invite
+[18:02:56] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> too braindead to didnt think that member role in centrelink discord is for everyone
+[18:03:02] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> u guys wanna go on wurst.plue
+[18:03:05] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> LMAO
+[18:03:15] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> stupitdog
+[18:03:17] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> then straight up accuse ifartcum of insiding for centrelink lmao
+[18:03:20] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> invite me to ur group
+[18:03:23] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> yesh
+[18:03:24] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> k
+[18:03:32] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> https://discord.gg/C3pMDaBP4Q
+[18:03:38] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> theres like one member
+[18:03:44] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> dm me on idsc
+[18:03:47] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> i cant open it on here
+[18:03:48] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> send on dm
+[18:03:59] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> NOAT
+[18:04:00] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [CombatLog] You have combat tagged stupitdog. Do not logout!
+[18:04:01] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> ?
+[18:04:05] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> it still doesnt have a banner
+[18:04:10] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> yet
+[18:04:10] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> i can draw one
+[18:04:15] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [CombatLog] You are no longer in combat. You may logout.
+[18:04:21] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> will u join?
+[18:04:22] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> give me sexhack
+[18:04:23] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> PLZZ
+[18:04:29] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> yeeeeeee
+[18:04:33] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> im in need
+[18:04:39] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> cool ca supremacy
+[18:04:45] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> bleachhack 2.0 will have speed ca :O
+[18:04:52] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> for high ping too
+[18:04:54] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> (true no lies 100% no haram)
+[18:04:55] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> yes
+[18:04:58] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> bleachhack+ will dominate everyone
+[18:05:05] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [CombatLog] You have combat tagged Brayden_Vlogs. Do not logout!
+[18:05:17] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> spaghetti code abuser
+[18:05:22] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> will be best pvp client that isnt a phobos skid
+[18:05:23] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [CombatLog] You are no longer in combat. You may logout.
+[18:05:28] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> cool ca speed
+[18:05:34] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> noat
+[18:05:39] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> send me sexhack
+[18:05:40] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> :sunglasses:
+[18:05:49] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> maybe
+[18:05:50] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> i need fast ca high ping
+[18:06:03] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> noat will u make me a banner for team bleach?
+[18:06:05] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [CombatLog] You have combat tagged Brayden_Vlogs. Do not logout!
+[18:06:09] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> i can draw one
+[18:06:16] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> like a custom one?
+[18:06:20] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [CombatLog] You are no longer in combat. You may logout.
+[18:06:21] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> Cape
+[18:06:23] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> or one that i could make as an optifine cape
+[18:06:25] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> yes on paint.net
+[18:06:27] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [CombatLog] You have combat tagged stupitdog. Do not logout!
+[18:06:34] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> oh ok
+[18:06:35] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> stupitdog
+[18:06:37] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> go in here
+[18:06:38] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> yuh
+[18:06:41] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [CombatLog] You are no longer in combat. You may logout.
+[18:06:45] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> y
+[18:06:51] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> box
+[18:06:58] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> funny box
+[18:07:02] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> nope
+[18:07:05] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> funny box
+[18:07:06] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> hehe
+[18:07:07] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> denied
+[18:07:14] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> :(
+[18:07:15] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] MelbKids joined the game
+[18:07:21] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [CombatLog] You have been combat tagged by Brayden_Vlogs. Do not logout!
+[18:07:26] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> anyone wanna race with strafe?
+[18:07:28] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> i just like sez
+[18:07:30] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> to test bh+ strafe
+[18:07:35] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> sure
+[18:07:36] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [CombatLog] You are no longer in combat. You may logout.
+[18:07:40] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> stupit can u do where it do packet send listener for cpackettryuseitemonblock so we can get crystal tracker or some shit
+[18:07:46] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Hypocalyper360 joined the game
+[18:07:55] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> wdym
+[18:07:58] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [CombatLog] You have combat tagged stupitdog. Do not logout!
+[18:08:13] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [CombatLog] You are no longer in combat. You may logout.
+[18:08:22] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [CombatLog] You have been combat tagged by Hypocalyper360. Do not logout!
+[18:08:28] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> make crystal per second pwease
+[18:08:33] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> oh sure
+[18:08:35] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <noatmc> like what abyss did
+[18:08:38] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] NotTolon joined the game
+[18:08:38] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> yeah
+[18:08:39] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <stupitdog> ez
+[18:08:39] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [CombatLog] You are no longer in combat. You may logout.
+[18:08:41] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Street_y joined the game
+[18:08:47] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Street_y left the game
+[18:08:54] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] northh joined the game
+[18:08:56] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] 0x81 joined the game
+[18:09:07] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Hypocalyper360 blew themselves up with an end crystal
+[18:09:09] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] NotTolon fucked noatmc with an end crystal
+[18:09:29] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Brayden_Vlogs fucked MelbKids with an end crystal
+[18:09:32] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [CombatLog] You have combat tagged stupitdog. Do not logout!
+[18:09:33] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Brayden_Vlogs> ez
+[18:09:46] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [CombatLog] You are no longer in combat. You may logout.
+[18:09:51] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] stupitdog foreskin was blown off by NotTolon's end crystal
+[18:09:53] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have teleported to spawn!
+[18:09:54] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Hypocalyper360> NotTolon
+[18:09:57] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] noatmc left the game
+[18:10:01] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] noatmc joined the game
+[18:10:02] [main/INFO] [FML]: Applying holder lookups
+[18:10:02] [main/INFO] [FML]: Holder lookups applied
+[18:10:02] [Netty Client IO #3/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bhp] at SERVER
+[18:10:03] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[18:10:03] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[18:10:04] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

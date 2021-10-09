@@ -1,0 +1,34 @@
+{
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_log": "2021-07-03 20:51:09 +1200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2021-07-03 20:49:20 +1200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "skeleton": "2021-07-03 20:49:19 +1200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "skeleton": "2021-07-03 20:49:20 +1200",
+      "creeper": "2021-07-03 20:51:05 +1200"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "taiga": "2021-07-03 20:49:20 +1200",
+      "extreme_hills": "2021-07-03 20:40:55 +1200"
+    },
+    "done": false
+  }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/0.0.2"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="4"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="GradleStart"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="0.0.2"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="0.0.2"/>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dfml.coreMods.load=&quot;me.stupitdog.bhp.mixin.BhpMixinLoader&quot; -DFORGE_FORCE_FRAME_RECALC=true"/>
+    <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="C:\Users\Joseph\Documents\bleachhack+\versions\0.0.2\run"/>
+</launchConfiguration>

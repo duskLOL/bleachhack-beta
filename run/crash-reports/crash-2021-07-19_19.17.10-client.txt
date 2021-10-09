@@ -1,0 +1,120 @@
+---- Minecraft Crash Report ----
+// You're mean.
+
+Time: 7/19/21 7:17 PM
+Description: Unexpected error
+
+java.lang.NullPointerException: Unexpected error
+	at me.stupitdog.bhp.module.modules.combat.AutoTrap.onUpdate(AutoTrap.java:43)
+	at me.stupitdog.bhp.manager.ModuleManager.onUpdate(ModuleManager.java:103)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_14_ModuleManager_onUpdate_ClientTickEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onPreClientTick(FMLCommonHandler.java:344)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1834)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1187)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:441)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:25)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at me.stupitdog.bhp.module.modules.combat.AutoTrap.onUpdate(AutoTrap.java:43)
+	at me.stupitdog.bhp.manager.ModuleManager.onUpdate(ModuleManager.java:103)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_14_ModuleManager_onUpdate_ClientTickEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onPreClientTick(FMLCommonHandler.java:344)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['stupitdog'/2304, l='MpServer', x=-217.09, y=89.00, z=279.28]]
+	Chunk stats: MultiplayerChunkCache: 158, 158
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (-284,64,263), Chunk: (at 4,4,7 in -18,16; contains blocks -288,0,256 to -273,255,271), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 350174 game time, 161375 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 40 total; [EntityCreeper['Creeper'/2306, l='MpServer', x=-283.50, y=87.00, z=317.50], EntityPig['Pig'/2054, l='MpServer', x=-278.21, y=77.00, z=203.45], EntityPig['Pig'/2055, l='MpServer', x=-285.32, y=83.00, z=247.53], EntityPig['Pig'/2056, l='MpServer', x=-276.80, y=84.00, z=253.31], EntitySheep['Sheep'/2057, l='MpServer', x=-282.91, y=82.00, z=257.50], EntityPig['Pig'/2121, l='MpServer', x=-225.25, y=79.00, z=201.44], EntityPig['Pig'/2058, l='MpServer', x=-283.30, y=85.00, z=265.46], EntityPig['Pig'/2122, l='MpServer', x=-227.17, y=80.00, z=222.50], EntityPig['Pig'/2059, l='MpServer', x=-275.46, y=73.00, z=303.76], EntityPig['Pig'/2123, l='MpServer', x=-234.73, y=82.00, z=210.69], EntityPig['Pig'/2060, l='MpServer', x=-284.25, y=90.00, z=296.50], EntityPig['Pig'/2124, l='MpServer', x=-233.75, y=82.00, z=217.62], EntitySheep['Sheep'/2061, l='MpServer', x=-272.46, y=91.00, z=293.38], EntitySheep['Sheep'/2125, l='MpServer', x=-231.50, y=77.00, z=241.27], EntityEnderCrystal['entity.EnderCrystal.name'/2126, l='MpServer', x=-228.50, y=84.00, z=256.50], EntityPlayerSP['stupitdog'/2304, l='MpServer', x=-217.09, y=89.00, z=279.28], EntityPig['Pig'/2073, l='MpServer', x=-269.22, y=78.00, z=217.51], EntityPig['Pig'/2074, l='MpServer', x=-268.47, y=77.00, z=224.29], EntityPig['Pig'/2075, l='MpServer', x=-264.76, y=85.00, z=237.70], EntityPig['Pig'/2076, l='MpServer', x=-271.51, y=85.00, z=232.33], EntityPig['Pig'/2140, l='MpServer', x=-221.45, y=73.00, z=310.53], EntityPig['Pig'/2077, l='MpServer', x=-270.67, y=84.00, z=228.50], EntityPig['Pig'/2141, l='MpServer', x=-217.32, y=72.00, z=322.75], EntityPig['Pig'/2078, l='MpServer', x=-265.54, y=82.00, z=264.75], EntityPig['Pig'/2079, l='MpServer', x=-265.85, y=86.00, z=280.55], EntitySheep['Sheep'/2080, l='MpServer', x=-270.49, y=87.00, z=273.43], EntityPig['Pig'/2081, l='MpServer', x=-271.25, y=70.00, z=303.47], EntityPig['Pig'/2082, l='MpServer', x=-260.78, y=77.00, z=318.50], EntityPig['Pig'/2083, l='MpServer', x=-269.75, y=67.00, z=329.47], EntityPig['Pig'/2148, l='MpServer', x=-193.55, y=73.00, z=201.55], EntityPig['Pig'/2150, l='MpServer', x=-205.50, y=81.00, z=200.72], EntityPig['Pig'/2151, l='MpServer', x=-192.31, y=72.00, z=215.08], EntityPig['Pig'/2152, l='MpServer', x=-196.31, y=74.00, z=219.62], EntityPig['Pig'/2102, l='MpServer', x=-240.99, y=81.00, z=205.51], EntityPig['Pig'/2103, l='MpServer', x=-254.71, y=77.00, z=213.54], EntityPig['Pig'/2104, l='MpServer', x=-247.45, y=80.00, z=232.66], EntitySheep['Sheep'/2105, l='MpServer', x=-242.80, y=78.00, z=326.32], EntityPig['Pig'/2106, l='MpServer', x=-242.30, y=77.00, z=323.50], EntitySheep['Sheep'/2044, l='MpServer', x=-293.51, y=96.00, z=295.18], EntityCow['Cow'/2046, l='MpServer', x=-288.45, y=91.00, z=349.55]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:461)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2888)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:470)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:25)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_281, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 465002424 bytes (443 MB) / 740294656 bytes (706 MB) up to 1897922560 bytes (1810 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	FML: MCP 9.42 Powered by Forge 14.23.5.2768 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State          | ID        | Version      | Source                                          | Signature |
+	|:-------------- |:--------- |:------------ |:----------------------------------------------- |:--------- |
+	| UCHIJAAAAAAAAA | minecraft | 1.12.2       | minecraft.jar                                   | None      |
+	| UCHIJAAAAAAAAA | mcp       | 9.42         | minecraft.jar                                   | None      |
+	| UCHIJAAAAAAAAA | FML       | 8.0.99.99    | forgeSrc-1.12.2-14.23.5.2768-PROJECT(0.0.2).jar | None      |
+	| UCHIJAAAAAAAAA | forge     | 14.23.5.2768 | forgeSrc-1.12.2-14.23.5.2768-PROJECT(0.0.2).jar | None      |
+	| UCHIJAAAAAAAAA | bhp       | v2.0         | bin                                             | None      |
+
+	Loaded coremods (and transformers): 
+BhpMixinLoader (unknown)
+  
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.14758 Compatibility Profile Context 21.1.1 27.20.14527.2002' Renderer: 'Radeon RX 570 Series'
+	Launched Version: 1.12.2
+	LWJGL: 2.9.4
+	OpenGL: Radeon RX 570 Series GL version 4.6.14758 Compatibility Profile Context 21.1.1 27.20.14527.2002, ATI Technologies Inc.
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: Daniels_Based_Pack_v4.9.zip
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 12x AMD Ryzen 5 2600 Six-Core Processor 

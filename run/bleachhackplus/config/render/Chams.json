@@ -1,0 +1,18 @@
+{
+  "Enabled": true,
+  "Drawn": true,
+  "Keybind": "None",
+  "Crystal": true,
+  "Outline": true,
+  "LineWidth": 2.0,
+  "Pops": true,
+  "Self": true,
+  "Single": false,
+  "FadeStart": 294,
+  "FadeSpeed": 0.5,
+  "Global": true,
+  "Red": 255,
+  "Green": 255,
+  "Blue": 255,
+  "Alpha": 83
+}

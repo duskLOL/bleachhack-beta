@@ -1,0 +1,69 @@
+This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril.This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril.
+
+WARNING: You are using an unsupported version of ForgeGradle.
+Please consider upgrading to ForgeGradle 5 and helping in the efforts to get old versions working on the modern toolchain.
+See https://gist.github.com/TheCurle/fe7ad3ede188cbdd15c235cc75d52d4a for more info on contributing.
+#################################################
+         ForgeGradle 2.3.4-gfc67182        
+  https://github.com/MinecraftForge/ForgeGradle  
+#################################################
+                 Powered by MCP                  
+             http://modcoderpack.com             
+     by: Searge, ProfMobius, R4wk, ZeuX          
+     Fesh0r, IngisKahn, bspkrs, LexManos         
+#################################################
+Found AccessTransformer: bhp_at.cfg
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:sourceApiJava UP-TO-DATE
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava
+:compileJava
+Potential refmap conflict. Duplicate refmap name mixins.bhp.refmap.json specified for sourceSet main, already defined for sourceSet main
+Note: SpongePowered MIXIN Annotation Processor Version=0.7.4
+Note: ObfuscationServiceMCP supports type: "searge"
+Note: ObfuscationServiceMCP supports type: "notch"
+Note: Loading searge mappings from C:\Users\Joseph\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\mcp-srg.srg
+Note: Loading notch mappings from C:\Users\Joseph\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\mcp-notch.srg
+Note: Writing refmap to C:\Users\Joseph\Documents\bleachhack+\versions\0.0.2\build\tmp\compileJava\compileJava-refmap.json
+Note: Writing refmap to C:\Users\Joseph\Documents\bleachhack+\versions\0.0.2\build\tmp\compileJava\compileJava-refmap.json
+Note: Writing searge output SRGs to C:\Users\Joseph\Documents\bleachhack+\versions\0.0.2\build\tmp\compileJava\mcp-srg.srg
+Note: Writing notch output SRGs to C:\Users\Joseph\Documents\bleachhack+\versions\0.0.2\build\tmp\compileJava\mcp-notch.srg
+Note: Writing refmap to C:\Users\Joseph\Documents\bleachhack+\versions\0.0.2\build\tmp\compileJava\compileJava-refmap.json
+Note: Writing refmap to C:\Users\Joseph\Documents\bleachhack+\versions\0.0.2\build\tmp\compileJava\compileJava-refmap.json
+Note: Writing searge output SRGs to C:\Users\Joseph\Documents\bleachhack+\versions\0.0.2\build\tmp\compileJava\mcp-srg.srg
+Note: Writing notch output SRGs to C:\Users\Joseph\Documents\bleachhack+\versions\0.0.2\build\tmp\compileJava\mcp-notch.srg
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:processResources UP-TO-DATE
+:classes
+:jar
+:sourceTestJava UP-TO-DATE
+:compileTestJava UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:test UP-TO-DATE
+:extractMcpData SKIPPED
+:extractMcpMappings SKIPPED
+:getVersionJson
+:extractUserdev UP-TO-DATE
+:genSrgs SKIPPED
+:reobfJar
+:extractAnnotationsJar
+:shadowJar
+:reobfShadowJar
+:extractAnnotationsShadowJar
+:extractRangemapReplacedMain
+C:\Users\Joseph\Documents\bleachhack+\versions\0.0.2\build\sources\main\java
+:retromapReplacedMain
+remapping source...
+:sourceJar
+:assemble
+:check UP-TO-DATE
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 33.767 secs

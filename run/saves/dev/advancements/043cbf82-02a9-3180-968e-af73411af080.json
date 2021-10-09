@@ -1,0 +1,15 @@
+{
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2021-07-04 16:06:03 +1200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "taiga": "2021-07-04 16:05:24 +1200",
+      "taiga_hills": "2021-07-04 16:05:51 +1200"
+    },
+    "done": false
+  }
+}

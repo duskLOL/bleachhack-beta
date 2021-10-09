@@ -1,0 +1,17 @@
+{
+  "Enabled": false,
+  "Drawn": true,
+  "Keybind": "Rshift",
+  "Alpha": 188,
+  "HoverAlpha": 151,
+  "CmdColor": "DARKPURPLE",
+  "ToggleR": 95,
+  "ToggleG": 123,
+  "ToggleB": 222,
+  "FontR": 255,
+  "FontG": 255,
+  "FontB": 255,
+  "BgR": 129,
+  "BgG": 164,
+  "BgB": 185
+}

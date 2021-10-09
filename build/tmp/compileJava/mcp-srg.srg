@@ -1,0 +1,23 @@
+FD: me/stupitdog/bhp/mixin/mixins/MixinEntity/posX me/stupitdog/bhp/mixin/mixins/MixinEntity/field_70165_t
+FD: me/stupitdog/bhp/mixin/mixins/MixinEntity/posY me/stupitdog/bhp/mixin/mixins/MixinEntity/field_70163_u
+FD: me/stupitdog/bhp/mixin/mixins/MixinEntity/posZ me/stupitdog/bhp/mixin/mixins/MixinEntity/field_70161_v
+FD: me/stupitdog/bhp/mixin/mixins/MixinEntity/prevPosX me/stupitdog/bhp/mixin/mixins/MixinEntity/field_70169_q
+FD: me/stupitdog/bhp/mixin/mixins/MixinEntity/prevPosY me/stupitdog/bhp/mixin/mixins/MixinEntity/field_70167_r
+FD: me/stupitdog/bhp/mixin/mixins/MixinEntity/prevPosZ me/stupitdog/bhp/mixin/mixins/MixinEntity/field_70166_s
+FD: me/stupitdog/bhp/mixin/mixins/MixinEntity/lastTickPosX me/stupitdog/bhp/mixin/mixins/MixinEntity/field_70142_S
+FD: me/stupitdog/bhp/mixin/mixins/MixinEntity/lastTickPosY me/stupitdog/bhp/mixin/mixins/MixinEntity/field_70137_T
+FD: me/stupitdog/bhp/mixin/mixins/MixinEntity/lastTickPosZ me/stupitdog/bhp/mixin/mixins/MixinEntity/field_70136_U
+FD: me/stupitdog/bhp/mixin/mixins/MixinEntity/prevRotationYaw me/stupitdog/bhp/mixin/mixins/MixinEntity/field_70126_B
+FD: me/stupitdog/bhp/mixin/mixins/MixinEntity/prevRotationPitch me/stupitdog/bhp/mixin/mixins/MixinEntity/field_70127_C
+FD: me/stupitdog/bhp/mixin/mixins/MixinEntity/rotationPitch me/stupitdog/bhp/mixin/mixins/MixinEntity/field_70125_A
+FD: me/stupitdog/bhp/mixin/mixins/MixinEntity/rotationYaw me/stupitdog/bhp/mixin/mixins/MixinEntity/field_70177_z
+FD: me/stupitdog/bhp/mixin/mixins/MixinEntity/onGround me/stupitdog/bhp/mixin/mixins/MixinEntity/field_70122_E
+FD: me/stupitdog/bhp/mixin/mixins/MixinEntity/motionX me/stupitdog/bhp/mixin/mixins/MixinEntity/field_70159_w
+FD: me/stupitdog/bhp/mixin/mixins/MixinEntity/motionY me/stupitdog/bhp/mixin/mixins/MixinEntity/field_70181_x
+FD: me/stupitdog/bhp/mixin/mixins/MixinEntity/motionZ me/stupitdog/bhp/mixin/mixins/MixinEntity/field_70179_y
+FD: me/stupitdog/bhp/mixin/mixins/MixinRenderEnderCrystal/ENDER_CRYSTAL_TEXTURES me/stupitdog/bhp/mixin/mixins/MixinRenderEnderCrystal/field_110787_a
+MD: me/stupitdog/bhp/mixin/mixins/MixinEntity/equals (Ljava/lang/Object;)Z me/stupitdog/bhp/mixin/mixins/MixinEntity/equals (Ljava/lang/Object;)Z
+MD: me/stupitdog/bhp/mixin/mixins/MixinEntity/isSprinting ()Z me/stupitdog/bhp/mixin/mixins/MixinEntity/func_70051_ag ()Z
+MD: me/stupitdog/bhp/mixin/mixins/MixinEntity/isRiding ()Z me/stupitdog/bhp/mixin/mixins/MixinEntity/func_184218_aH ()Z
+MD: me/stupitdog/bhp/mixin/mixins/MixinEntity/move (Lnet/minecraft/entity/MoverType;DDD)V me/stupitdog/bhp/mixin/mixins/MixinEntity/func_70091_d (Lnet/minecraft/entity/MoverType;DDD)V
+MD: me/stupitdog/bhp/mixin/mixins/MixinEntityLivingBase/jump ()V me/stupitdog/bhp/mixin/mixins/MixinEntityLivingBase/func_70664_aZ ()V
